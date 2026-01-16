@@ -660,13 +660,15 @@ def main():
         QTableWidget {
             background-color: #363434;
             border: 1px solid #ddd;
+            color: white;
         }
         QLineEdit, QTextEdit {
             border: 1px solid #ddd;
             border-radius: 4px;
             padding: 4px;
         }
-        QLabel[text*="<h3>"] {
+        QLabel[text*="<h3>"],
+        QLabel[text*="<h4>"] {
             color: #ebe8e8;
         }
     """)
